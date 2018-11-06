@@ -4,12 +4,22 @@ using namespace std;
 int main()
 {
   int x;
+  int y;
   int s;
+  string version="1.1.0"
   
-  cout<< "Inserire numero da sottrarre e premere INVIO"<<endl;
+  cout<< "Inserire numeri da sottrarre e premere INVIO"<<endl;
   cin>>x;
-  somma=x-1;
-  cout<<"Il tuo risultato e': "<<s<<endl;
+  cin>>y;
+  if(x>=y)
+  {
+    s=x-y;
+    cout<<"Il tuo risultato e': "<<s<<endl;
+  }
+  else cout<<"ERROR"<<endl;
+  
+  cout<<"La versione del programma e' la numero: "<<version<<endl;
+
   
   return 0;
 }
