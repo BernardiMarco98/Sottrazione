@@ -6,7 +6,7 @@ int main()
   int x;
   int y;
   int s;
-  string version="1.0.3"
+  string version="1.1.0"
   
   cout<< "Inserire numeri da sottrarre e premere INVIO"<<endl;
   cin>>x;
@@ -14,11 +14,12 @@ int main()
   if(x>=y)
   {
     s=x-y;
-    cout<<"Il tuo risultato è: "<<s<<endl;
+    cout<<"Il tuo risultato e': "<<s<<endl;
   }
   else cout<<"ERROR"<<endl;
   
-  cout<<"La versione del programma è la numero: "<<version<<endl;
+  cout<<"La versione del programma e' la numero: "<<version<<endl;
+
   
   return 0;
 }
