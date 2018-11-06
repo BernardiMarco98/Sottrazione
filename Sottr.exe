@@ -9,7 +9,7 @@ int main()
   cout<< "Inserire numero da sottrarre e premere INVIO"<<endl;
   cin>>x;
   somma=x-1;
-  cout<<"Il tuo risultato è: "<<s<<endl;
+  cout<<"Il tuo risultato e': "<<s<<endl;
   
   return 0;
 }
